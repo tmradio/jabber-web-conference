@@ -1,0 +1,54 @@
+body {
+	background-color: white;
+	color: black;
+	font: normal 10pt/15pt Ubuntu, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#log {
+	padding-bottom: 50px;
+}
+
+form {
+	position: fixed;
+	left: 0;
+	top: 100%;
+	margin-top: -40px;
+	padding: 4px;
+}
+
+table#chat {
+	font: inherit;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 0 10px;
+}
+table#chat td {
+	border-bottom: solid 1px #eee;
+	padding: 2px 4px;
+	vertical-align: top;
+}
+#chat td:nth-child(1) {
+	color: gray;
+}
+#chat td:nth-child(2) {
+	white-space: nowrap;
+	text-align: right;
+	font-weight: bold;
+}
+#chat td:nth-child(3) {
+	width: 100%;
+}
+
+#form td:nth-child(2) {
+	width: 100%;
+}
+#message {
+	width: 96%;
+}

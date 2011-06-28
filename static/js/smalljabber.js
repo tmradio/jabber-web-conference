@@ -16,7 +16,7 @@
 //глобальные переменные 
 srvUrl="/"; //ссылка на сервер, пишется перед chatTemplateFile и прочими
 chatTemplateFile='chattemplate.txt';	//файл шаблона чатика, html
-getChatLogUrl='getlogs.php'; //адрес откуда спрашиваются сообщения чата
+getChatLogUrl='messages.json'; //адрес откуда спрашиваются сообщения чата
 sendPostsUrl='/'; //адрес куда отправляются POST запросы
 //alert('start!');
 
